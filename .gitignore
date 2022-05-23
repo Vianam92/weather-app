@@ -1,0 +1,8 @@
+dist/
+.env
+node_modules/
+coverage/
+instrumented/
+.nyc_output/
+cypress-coverage/
+coverage.json
