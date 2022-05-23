@@ -1,0 +1,27 @@
+@import url(https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Dancing+Script:wght@500&family=Luxurious+Roman&family=Playfair+Display:ital,wght@0,500;1,400&family=Roboto+Slab:wght@500&family=Rubik:wght@300&family=Yusei+Magic&display=swap);
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --width-value: 250px;
+    --bg-color-home: #2f4202;
+    --family-dancing: 'Dancing Script', cursive;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    font-family: var(--family-dancing);
+    ;
+    background: #3495d6;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #72e9c1, #6de9fa, #075050);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0ba7a7c7, #46d6e0, #f0d5cac4);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+/*# sourceMappingURL=main.css.map*/
