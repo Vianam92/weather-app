@@ -83,7 +83,7 @@ export class WeatherApp extends LitElement {
     return html`
       <section class="container" id="container">
         ${this.weather === undefined
-          ? html`Vas a viajar ??? que el tiempo no te tome desprevenid@`
+          ? html`You are going to travel ??? Don't let time catch you off guard`
           : html`
               <div class="location-names">
                 <h2>${this.weather.location.name}</h2>
@@ -128,7 +128,6 @@ export class WeatherApp extends LitElement {
                 })}
               </div>
             `}
-            <slot></slot>
       </section>
     `;
   }

@@ -166,11 +166,9 @@ export class WeatherComponent extends LitElement {
         ? html`<pronost-ui
             .weather="${this.weather}"
             .city="${this.city}"
-            .initial="${this.initial}"
-            .ending="${this.ending}"
           >
           </pronost-ui>`
-        : html`<weather-ui .weather="${this.weather}"> </weather-ui>`}
+        : html`<genk-weather-comp .weather="${this.weather}"> </genk-weather-comp>`}
     `;
   }
 
